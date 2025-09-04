@@ -1,0 +1,323 @@
+[
+    {
+        "event": "",
+        "np": "१",
+        "en": "13",
+        "isholiday": false,
+        "np_date": "१ फागुन २०८१, बिहिवार",
+        "en_date": "February 13, 2025",
+        "day": "Thursday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२",
+        "en": "14",
+        "isholiday": false,
+        "np_date": "२ फागुन २०८१, शुक्रवार",
+        "en_date": "February 14, 2025",
+        "day": "Friday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "३",
+        "en": "15",
+        "isholiday": true,
+        "np_date": "३ फागुन २०८१, शनिवार",
+        "en_date": "February 15, 2025",
+        "day": "Saturday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "४",
+        "en": "16",
+        "isholiday": false,
+        "np_date": "४ फागुन २०८१, आइतवार",
+        "en_date": "February 16, 2025",
+        "day": "Sunday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "५",
+        "en": "17",
+        "isholiday": false,
+        "np_date": "५ फागुन २०८१, सोमवार",
+        "en_date": "February 17, 2025",
+        "day": "Monday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "६",
+        "en": "18",
+        "isholiday": false,
+        "np_date": "६ फागुन २०८१, मंगलवार",
+        "en_date": "February 18, 2025",
+        "day": "Tuesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "७",
+        "en": "19",
+        "isholiday": false,
+        "np_date": "७ फागुन २०८१, बुधवार",
+        "en_date": "February 19, 2025",
+        "day": "Wednesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "८",
+        "en": "20",
+        "isholiday": false,
+        "np_date": "८ फागुन २०८१, बिहिवार",
+        "en_date": "February 20, 2025",
+        "day": "Thursday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "९",
+        "en": "21",
+        "isholiday": false,
+        "np_date": "९ फागुन २०८१, शुक्रवार",
+        "en_date": "February 21, 2025",
+        "day": "Friday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१०",
+        "en": "22",
+        "isholiday": true,
+        "np_date": "१० फागुन २०८१, शनिवार",
+        "en_date": "February 22, 2025",
+        "day": "Saturday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "११",
+        "en": "23",
+        "isholiday": false,
+        "np_date": "११ फागुन २०८१, आइतवार",
+        "en_date": "February 23, 2025",
+        "day": "Sunday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१२",
+        "en": "24",
+        "isholiday": false,
+        "np_date": "१२ फागुन २०८१, सोमवार",
+        "en_date": "February 24, 2025",
+        "day": "Monday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१३",
+        "en": "25",
+        "isholiday": false,
+        "np_date": "१३ फागुन २०८१, मंगलवार",
+        "en_date": "February 25, 2025",
+        "day": "Tuesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "महाशिवरात्रि व्रत/सिलाचःह्रे पूजा/सेना दिवस",
+        "np": "१४",
+        "en": "26",
+        "isholiday": true,
+        "np_date": "१४ फागुन २०८१, बुधवार",
+        "en_date": "February 26, 2025",
+        "day": "Wednesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१५",
+        "en": "27",
+        "isholiday": false,
+        "np_date": "१५ फागुन २०८१, बिहिवार",
+        "en_date": "February 27, 2025",
+        "day": "Thursday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१६",
+        "en": "28",
+        "isholiday": false,
+        "np_date": "१६ फागुन २०८१, शुक्रवार",
+        "en_date": "February 28, 2025",
+        "day": "Friday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१७",
+        "en": "1",
+        "isholiday": true,
+        "np_date": "१७ फागुन २०८१, शनिवार",
+        "en_date": "March 01, 2025",
+        "day": "Saturday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१८",
+        "en": "2",
+        "isholiday": false,
+        "np_date": "१८ फागुन २०८१, आइतवार",
+        "en_date": "March 02, 2025",
+        "day": "Sunday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "१९",
+        "en": "3",
+        "isholiday": false,
+        "np_date": "१९ फागुन २०८१, सोमवार",
+        "en_date": "March 03, 2025",
+        "day": "Monday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२०",
+        "en": "4",
+        "isholiday": false,
+        "np_date": "२० फागुन २०८१, मंगलवार",
+        "en_date": "March 04, 2025",
+        "day": "Tuesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२१",
+        "en": "5",
+        "isholiday": false,
+        "np_date": "२१ फागुन २०८१, बुधवार",
+        "en_date": "March 05, 2025",
+        "day": "Wednesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२२",
+        "en": "6",
+        "isholiday": false,
+        "np_date": "२२ फागुन २०८१, बिहिवार",
+        "en_date": "March 06, 2025",
+        "day": "Thursday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२३",
+        "en": "7",
+        "isholiday": false,
+        "np_date": "२३ फागुन २०८१, शुक्रवार",
+        "en_date": "March 07, 2025",
+        "day": "Friday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२४",
+        "en": "8",
+        "isholiday": true,
+        "np_date": "२४ फागुन २०८१, शनिवार",
+        "en_date": "March 08, 2025",
+        "day": "Saturday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२५",
+        "en": "9",
+        "isholiday": false,
+        "np_date": "२५ फागुन २०८१, आइतवार",
+        "en_date": "March 09, 2025",
+        "day": "Sunday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२६",
+        "en": "10",
+        "isholiday": false,
+        "np_date": "२६ फागुन २०८१, सोमवार",
+        "en_date": "March 10, 2025",
+        "day": "Monday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२७",
+        "en": "11",
+        "isholiday": false,
+        "np_date": "२७ फागुन २०८१, मंगलवार",
+        "en_date": "March 11, 2025",
+        "day": "Tuesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "",
+        "np": "२८",
+        "en": "12",
+        "isholiday": false,
+        "np_date": "२८ फागुन २०८१, बुधवार",
+        "en_date": "March 12, 2025",
+        "day": "Wednesday",
+        "year": 2081,
+        "month": 11
+    },
+    {
+        "event": "फागु पुर्णिमा (पहाडी जिल्ला)/पूर्णिमा व्रत",
+        "np": "२९",
+        "en": "13",
+        "isholiday": true,
+        "np_date": "२९ फागुन २०८१, बिहिवार",
+        "en_date": "March 13, 2025",
+        "day": "Thursday",
+        "year": 2081,
+        "month": 11
+    }
+
+
+]
