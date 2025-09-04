@@ -1,0 +1,178 @@
+/* Base Reset & Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+/* Container & Headings */
+.weekend-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.weekend-heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #000000;
+}
+
+/* Destination Cards */
+.weekend-destinations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+}
+
+.weekend-destination-card {
+    position: relative;
+    height: 330px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.weekend-destination-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.weekend-destination-label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+}
+
+.weekend-destination-label h2 {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Promotional Banner */
+.weekend-promo-banner {
+    display: flex;
+    background-color: #f5f4f0;
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 40px;
+    min-height: 400px;
+}
+
+.weekend-banner-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+
+.weekend-banner-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.weekend-banner-content {
+    flex: 1;
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weekend-sponsor-text {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.weekend-sponsor-logo {
+    font-size: 16px;
+}
+
+.weekend-banner-headline {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.weekend-banner-description {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.weekend-learn-more-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: black;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.2s ease;
+}
+
+.weekend-learn-more-btn:hover {
+    background-color: green;
+    color: #FFF;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .weekend-destinations {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .weekend-promo-banner {
+        flex-direction: column;
+    }
+
+    .weekend-banner-content {
+        padding: 40px 30px;
+    }
+
+    .weekend-banner-headline {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    .weekend-destinations {
+        grid-template-columns: 1fr;
+    }
+
+    .weekend-destination-card {
+        height: 250px;
+    }
+
+    .weekend-heading {
+        font-size: 24px;
+    }
+
+    .weekend-banner-content {
+        padding: 30px 20px;
+    }
+
+    .weekend-banner-headline {
+        font-size: 24px;
+    }
+}

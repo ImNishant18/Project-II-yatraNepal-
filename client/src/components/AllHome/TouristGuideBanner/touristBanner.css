@@ -1,0 +1,211 @@
+.tourist-services-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.services-main-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.services-subtitle {
+    font-size: 18px;
+    color: #4a4a4a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tourist-banner-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tourist-banner-card {
+    display: flex;
+    align-items: center;
+    background-color: #f8f5ff;
+    border-radius: 1.5rem;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    flex-wrap: wrap;
+}
+
+.tourist-banner-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.money-exchange-card {
+    background-color: #f5f8ff;
+}
+
+.tourist-banner-image {
+    flex-shrink: 0;
+    margin-right: 24px;
+}
+
+.tourist-banner-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+    display: block;
+}
+
+.tourist-banner-content {
+    flex: 1;
+    padding-right: 20px;
+    min-width: 250px;
+}
+
+.tourist-sponsor-text {
+    font-size: 14px;
+    color: #4b5563;
+    background-color: #e5e7eb;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+.money-sponsor-text {
+    background-color: #e5ebf7;
+    color: #3b5998;
+}
+
+.tourist-banner-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin: 0 0 12px 0;
+    line-height: 1.2;
+}
+
+.tourist-banner-description {
+    font-size: 16px;
+    color: #4a4a4a;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.tourist-banner-action {
+    flex-shrink: 0;
+    margin-top: 1rem;
+}
+
+.tourist-explore-button {
+    background-color: transparent;
+    border: 2px solid #1a1a1a;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #1a1a1a;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.money-exchange-button {
+    border-color: #3b5998;
+    color: #3b5998;
+}
+
+.tourist-explore-button:hover {
+    background-color: #1a1a1a;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.money-exchange-button:hover {
+    background-color: #3b5998;
+    color: white;
+}
+
+.tourist-explore-button:active {
+    transform: translateY(0);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-main-title {
+        font-size: 30px;
+    }
+
+    .services-subtitle {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .tourist-banner-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .tourist-banner-image {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .tourist-banner-image img {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+    }
+
+    .tourist-banner-content {
+        padding-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .tourist-banner-title {
+        font-size: 24px;
+    }
+
+    .tourist-banner-description {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services-main-title {
+        font-size: 26px;
+    }
+
+    .services-subtitle {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .tourist-banner-container {
+        padding: 10px;
+    }
+
+    .tourist-banner-card {
+        padding: 12px;
+    }
+
+    .tourist-banner-title {
+        font-size: 20px;
+    }
+
+    .tourist-banner-description {
+        font-size: 14px;
+    }
+
+    .tourist-explore-button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

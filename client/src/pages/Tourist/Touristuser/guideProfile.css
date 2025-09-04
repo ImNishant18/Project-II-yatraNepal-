@@ -1,0 +1,451 @@
+/* Guide Profile Styles */
+.guideprofile {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.guideprofile-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.guideprofile-card {
+    display: flex;
+    gap: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.guideprofile-image {
+    position: relative;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.guideprofile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.guideprofile-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f0;
+    color: #888;
+    font-size: 48px;
+}
+
+.guideprofile-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.guideprofile-badge-available {
+    background: #10b981;
+}
+
+.guideprofile-badge-unavailable {
+    background: #ef4444;
+}
+
+.guideprofile-content {
+    flex: 1;
+}
+
+.guideprofile-content h2 {
+    margin: 0 0 10px 0;
+    font-size: 28px;
+    color: #1f2937;
+}
+
+.guideprofile-rating-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.guideprofile-review-count {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.guideprofile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.guideprofile-detail {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #4b5563;
+}
+
+.guideprofile-categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.guideprofile-category {
+    padding: 6px 12px;
+    background: #e5e7eb;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #374151;
+}
+
+.guideprofile-actions {
+    display: flex;
+    gap: 12px;
+    position: relative;
+}
+
+.guideprofile-btn-primary,
+.guideprofile-btn-secondary {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.guideprofile-btn-primary {
+    background: #3b82f6;
+    color: white;
+}
+
+.guideprofile-btn-primary:hover:not(:disabled) {
+    background: #2563eb;
+}
+
+.guideprofile-btn-primary:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+}
+
+.guideprofile-btn-secondary {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.guideprofile-btn-secondary:hover {
+    background: #d1d5db;
+}
+
+.guideprofile-contact-options {
+    position: absolute;
+    top: 100%;
+    left: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.guideprofile-chat-btn,
+.guideprofile-whatsapp-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    background: #f3f4f6;
+    color: #374151;
+    cursor: pointer;
+    transition: background 0.2s;
+    text-align: left;
+}
+
+.guideprofile-chat-btn:hover,
+.guideprofile-whatsapp-btn:hover {
+    background: #e5e7eb;
+}
+
+.guideprofile-whatsapp-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #25d366;
+}
+
+.guideprofile-reviews {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.guideprofile-reviews h3 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.guideprofile-average-rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #4b5563;
+}
+
+.guideprofile-no-reviews {
+    color: #6b7280;
+    font-style: italic;
+}
+
+.guideprofile-review {
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.guideprofile-review:last-child {
+    border-bottom: none;
+}
+
+.guideprofile-review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.guideprofile-review-header h4 {
+    margin: 0;
+    color: #1f2937;
+}
+
+.guideprofile-review-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #f59e0b;
+}
+
+.guideprofile-review-comment {
+    margin: 0;
+    color: #4b5563;
+    line-height: 1.5;
+}
+
+/* Star Rating Styles */
+.guideprofile-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.guideprofile-star {
+    color: #e5e7eb;
+}
+
+.guideprofile-star-full {
+    color: #f59e0b;
+}
+
+.guideprofile-star-half {
+    color: #f59e0b;
+    position: relative;
+}
+
+.guideprofile-star-half:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: currentColor;
+}
+
+.guideprofile-rating-text {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #6b7280;
+}
+
+/* Modal Styles */
+.guideprofile-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.guideprofile-modal {
+    background: white;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.guideprofile-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.guideprofile-modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #1f2937;
+}
+
+.guideprofile-modal-close {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #6b7280;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.guideprofile-modal-close:hover {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+.guideprofile-booking-form {
+    padding: 24px;
+}
+
+.guideprofile-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.guideprofile-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.guideprofile-form-group label {
+    font-weight: 500;
+    color: #374151;
+}
+
+.guideprofile-form-group input,
+.guideprofile-form-group select,
+.guideprofile-form-group textarea {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.guideprofile-form-group input:focus,
+.guideprofile-form-group select:focus,
+.guideprofile-form-group textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+.guideprofile-price-summary {
+    background: #f9fafb;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.guideprofile-price-summary h3 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.guideprofile-price-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #4b5563;
+}
+
+.guideprofile-price-total {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.guideprofile-booking-status {
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+
+.guideprofile-booking-status-loading {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.guideprofile-booking-status-success {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.guideprofile-booking-status-error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.guideprofile-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+}
+
+.guideprofile-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 18px;
+    color: #6b7280;
+}

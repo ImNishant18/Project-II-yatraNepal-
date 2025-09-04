@@ -1,0 +1,388 @@
+/* Main Container */
+.travelerstories {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+/* Banner Section */
+.travelerstories-banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl2oMshk1BEdB-JtihgxsOXuofRqKVZ37FEQ&s') center/cover no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.travelerstories-banner::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: url('https://cdn.vectorstock.com/i/500p/62/46/fluid-curve-separators-blue-wave-effect-vector-50476246.jpg') repeat-x;
+}
+
+.travelerstories-banner-content h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 700;
+}
+
+.travelerstories-banner-content p {
+    font-size: 1.4rem;
+    max-width: 700px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+}
+
+/* Main Content Container */
+.travelerstories-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px 60px;
+}
+
+/* Header Section */
+.travelerstories-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.travelerstories-header h2 {
+    font-size: 2.4rem;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.travelerstories-header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-weight: 400;
+}
+
+/* Tabs Navigation */
+.travelerstories-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.travelerstories-tabs button {
+    padding: 12px 28px;
+    background: none;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.travelerstories-tabs button:hover {
+    background-color: #e8f5e9;
+    transform: translateY(-2px);
+}
+
+.travelerstories-tabs button.active {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+}
+
+/* Stories Grid */
+.travelerstories-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+/* Story Cards */
+.travelerstories-card {
+    background: white;
+    gap: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    display: flex;
+    transition: all 0.3s ease;
+}
+
+.travelerstories-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.travelerstories-card-image {
+    flex: 1;
+    min-height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.travelerstories-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.travelerstories-card:hover .travelerstories-card-image img {
+    transform: scale(1.05);
+}
+
+.travelerstories-card-category {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 8px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #2c3e50;
+    z-index: 1;
+}
+
+.travelerstories-card-category svg {
+    color: #4CAF50;
+    font-size: 1.2rem;
+}
+
+.travelerstories-card-content {
+    flex: 1.5;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.travelerstories-card-content h3 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.travelerstories-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+    color: #7f8c8d;
+}
+
+.travelerstories-card-meta span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.travelerstories-card-meta svg {
+    font-size: 0.95rem;
+    color: #4CAF50;
+}
+
+.travelerstories-card-content p {
+    color: #555;
+    margin-bottom: 25px;
+    line-height: 1.7;
+    flex-grow: 1;
+    font-size: 1.05rem;
+}
+
+.travelerstories-card-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: auto;
+}
+
+.travelerstories-like-btn,
+.travelerstories-comment-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: none;
+    border: none;
+    color: #7f8c8d;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.travelerstories-like-btn:hover,
+.travelerstories-comment-btn:hover {
+    background-color: #f5f5f5;
+    color: #4CAF50;
+}
+
+.travelerstories-like-btn .liked {
+    color: #ff6b6b;
+}
+
+.travelerstories-read-more {
+    margin-left: auto;
+    padding: 10px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.travelerstories-read-more:hover {
+    background-color: #3e8e41;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+}
+
+/* Share Your Story Section */
+.travelerstories-share {
+    background-color: #e8f5e9;
+    padding: 50px;
+    border-radius: 12px;
+    text-align: center;
+    margin-top: 40px;
+    background-image: url('https://img.freepik.com/premium-vector/green-spring-rustic-seamless-pattern-with-foliage_514903-4996.jpg');
+    background-blend-mode: overlay;
+    background-size: 300px;
+}
+
+.travelerstories-share h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.travelerstories-share p {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.travelerstories-cta-button {
+    padding: 14px 36px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    box-shadow: 0 4px 8px rgba(76, 175, 80, 0.2);
+}
+
+.travelerstories-cta-button:hover {
+    background-color: #3e8e41;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .travelerstories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .travelerstories-card {
+        flex-direction: column;
+    }
+
+    .travelerstories-card-image {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .travelerstories-banner {
+        height: 350px;
+    }
+
+    .travelerstories-banner-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .travelerstories-banner-content p {
+        font-size: 1.1rem;
+    }
+
+    .travelerstories-header h2 {
+        font-size: 2rem;
+    }
+
+    .travelerstories-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .travelerstories-tabs button {
+        width: 80%;
+    }
+
+    .travelerstories-share {
+        padding: 30px 20px;
+    }
+
+    .travelerstories-card-content {
+        padding: 25px;
+    }
+
+    .travelerstories-card-content h3 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .travelerstories-banner {
+        height: 300px;
+    }
+
+    .travelerstories-banner-content h1 {
+        font-size: 2rem;
+    }
+
+    .travelerstories-card-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .travelerstories-card-actions {
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-start;
+    }
+
+    .travelerstories-read-more {
+        margin-left: 0;
+        width: 100%;
+    }
+}

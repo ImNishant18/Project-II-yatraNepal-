@@ -1,0 +1,259 @@
+/* stays.css - Modern Flat Design */
+.staysPage {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Search Section - Modern Gradient Header */
+.searchSection {
+    padding: 2.5rem 1.5rem;
+    background: linear-gradient(135deg, #6e8efb 0%, #4a6cf7 100%);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0 10px 30px rgba(74, 108, 247, 0.2);
+    margin-bottom: 2rem;
+}
+
+.searchContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.searchTitle {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.searchSubtitle {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+/* Search Bar - Neumorphic Design */
+.searchBar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    background: white;
+    padding: 1.8rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.searchItem {
+    position: relative;
+}
+
+.inputGroup {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 0.9rem 1.2rem;
+    transition: all 0.3s ease;
+    border: 1px solid #e0e3e8;
+}
+
+.inputGroup:hover {
+    border-color: #6e8efb;
+    box-shadow: 0 0 0 3px rgba(110, 142, 251, 0.1);
+}
+
+.searchIcon {
+    color: #7a7f8a;
+    margin-right: 12px;
+    font-size: 1.1rem;
+}
+
+.searchInput {
+    flex: 1;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 1rem;
+    color: #2d3748;
+}
+
+.searchInput::placeholder {
+    color: #a0aec0;
+}
+
+.searchText {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #2d3748;
+    font-weight: 500;
+}
+
+/* Date Picker */
+.datePickerContainer {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* Options Dropdown - Card Style */
+.optionsDropdown {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    background: white;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    width: 240px;
+}
+
+.optionItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.optionLabel {
+    font-size: 0.95rem;
+    color: #4a5568;
+    font-weight: 500;
+}
+
+.optionControls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.optionBtn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f0f2f5;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #4a6cf7;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.optionBtn:hover {
+    background: #4a6cf7;
+    color: white;
+    transform: scale(1.1);
+}
+
+.optionValue {
+    min-width: 24px;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* Search Button - Floating Action Style */
+.searchBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    padding: 1rem 1.8rem;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 4px 12px rgba(74, 108, 247, 0.3);
+}
+
+.searchBtn:hover {
+    background: #3a5bef;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(74, 108, 247, 0.4);
+}
+
+.searchBtn:active {
+    transform: translateY(0);
+}
+
+/* Content Section */
+.stayContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem 3rem;
+}
+
+.sectionTitle {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 3.5rem 0 1.8rem;
+    color: #1a1a1a;
+    position: relative;
+    padding-bottom: 0.8rem;
+}
+
+.sectionTitle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70px;
+    height: 4px;
+    background: #4a6cf7;
+    border-radius: 2px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .searchBar {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .searchTitle {
+        font-size: 1.8rem;
+    }
+
+    .searchSubtitle {
+        font-size: 1rem;
+    }
+
+    .sectionTitle {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .searchBar {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+
+    .searchSection {
+        padding: 2rem 1rem;
+    }
+
+    .searchTitle {
+        font-size: 1.6rem;
+    }
+
+    .searchBtn {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,224 @@
+.tourist-guide-form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #1e1e2c;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tourist-guide-form h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #00d4ff;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.tourist-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.tourist-form-group {
+    flex: 1;
+    min-width: 200px;
+}
+
+.tourist-form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffd500;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.tourist-form-group input[type="text"],
+.tourist-form-group input[type="email"],
+.tourist-form-group input[type="number"],
+.tourist-form-group input[type="tel"] {
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background: #2d2d3a;
+    color: white;
+    font-size: 0.9rem;
+    transition: border-color 0.3s;
+}
+
+.tourist-form-group input[type="text"]:focus,
+.tourist-form-group input[type="email"]:focus,
+.tourist-form-group input[type="number"]:focus,
+.tourist-form-group input[type="tel"]:focus {
+    border-color: #00d4ff;
+    outline: none;
+}
+
+.tourist-form-group input[type="file"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 2px dashed #00d4ff;
+    border-radius: 8px;
+    background: #2d2d3a;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+.tourist-form-group input[type="file"]:hover {
+    border-color: #00a3cc;
+}
+
+.tourist-image-preview {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    border: 2px solid #5cadbd;
+}
+
+.tourist-category-checkboxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 0.5rem;
+}
+
+.tourist-category-checkboxes label {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: normal;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.tourist-category-checkboxes input[type="checkbox"] {
+    margin-right: 0.5rem;
+    accent-color: #47abc0;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background: linear-gradient(45deg, #4ca989, #00a3cc);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(45deg, #00a3cc, #008faf);
+    transform: translateY(-2px);
+}
+
+button[type="submit"]:disabled {
+    background: #333;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tourist-guide-form {
+        padding: 1rem;
+    }
+
+    .tourist-guide-form h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+
+    .tourist-form-row {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .tourist-form-group {
+        min-width: 100%;
+    }
+
+    .tourist-form-group label {
+        font-size: 0.85rem;
+    }
+
+    .tourist-form-group input[type="text"],
+    .tourist-form-group input[type="email"],
+    .tourist-form-group input[type="number"] {
+        padding: 0.5rem;
+        font-size: 0.85rem;
+    }
+
+    .tourist-form-group input[type="file"] {
+        padding: 0.4rem;
+        font-size: 0.85rem;
+    }
+
+    .tourist-image-preview {
+        width: 70px;
+        height: 70px;
+    }
+
+    button[type="submit"] {
+        padding: 0.7rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tourist-guide-form {
+        padding: 0.8rem;
+    }
+
+    .tourist-guide-form h2 {
+        font-size: 1.1rem;
+    }
+
+    .tourist-form-group label {
+        font-size: 0.8rem;
+    }
+
+    .tourist-form-group input[type="text"],
+    .tourist-form-group input[type="email"],
+    .tourist-form-group input[type="number"] {
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .tourist-form-group input[type="file"] {
+        padding: 0.3rem;
+        font-size: 0.8rem;
+    }
+
+    .tourist-image-preview {
+        width: 60px;
+        height: 60px;
+    }
+
+    .tourist-category-checkboxes {
+        gap: 0.5rem;
+    }
+
+    .tourist-category-checkboxes label {
+        font-size: 0.75rem;
+    }
+
+    button[type="submit"] {
+        padding: 0.6rem;
+        font-size: 0.85rem;
+    }
+}

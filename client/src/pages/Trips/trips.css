@@ -1,0 +1,21 @@
+.trips-container {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    background-color: #f5f7fa;
+}
+
+.trips-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.trips-subtext {
+    font-size: 1.2rem;
+    color: #777;
+}

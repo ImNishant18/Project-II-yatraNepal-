@@ -1,0 +1,374 @@
+/* writereview.css */
+.writereview-review-page-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.writereview-review-main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    width: 100%;
+    flex: 1;
+}
+
+/* Hero Section */
+.writereview-hero-section {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+    border-radius: 16px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.writereview-hero-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.writereview-hero-section p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Review Form */
+.writereview-review-form {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    margin-bottom: 3rem;
+}
+
+.writereview-search-section {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.writereview-search-section input {
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background-color: #fafafa;
+}
+
+.writereview-search-section input:focus {
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+    outline: none;
+    background: white;
+}
+
+/* Suggestions */
+.writereview-suggestions-container {
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-top: 0.5rem;
+    max-height: 300px;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.writereview-suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    background: white;
+    border-bottom: 1px solid #f0f0f0;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.writereview-suggestion-item:hover {
+    background-color: #f8f9ff;
+    transform: translateY(-2px);
+}
+
+.writereview-selected {
+    background-color: #eef2ff;
+    border-left: 4px solid #4361ee;
+}
+
+.writereview-suggestion-item .writereview-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.writereview-suggestion-item h4 {
+    margin: 0 0 0.3rem 0;
+    font-weight: 600;
+}
+
+.writereview-suggestion-item small {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Badges */
+.writereview-badge-place {
+    background-color: #e6f7ff;
+    color: #1890ff;
+}
+
+.writereview-badge-hotel {
+    background-color: #f6ffed;
+    color: #52c41a;
+}
+
+.writereview-badge-exchange {
+    background-color: #fff7e6;
+    color: #fa8c16;
+}
+
+.writereview-badge-guide {
+    background-color: #f9f0ff;
+    color: #722ed1;
+}
+
+.writereview-badge-default {
+    background-color: #f0f0f0;
+    color: #595959;
+}
+
+.writereview-suggestion-item span {
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+/* Rating Section */
+.writereview-review-form h2 {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    color: #2b2d42;
+}
+
+.writereview-stars {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.writereview-stars .writereview-filled {
+    color: #ffd700;
+}
+
+.writereview-stars svg {
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+    color: #ddd;
+}
+
+.writereview-stars svg:hover {
+    transform: scale(1.15);
+}
+
+.writereview-review-form textarea {
+    width: 100%;
+    min-height: 150px;
+    padding: 1.2rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 12px;
+    font-size: 1rem;
+    resize: vertical;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.writereview-review-form textarea:focus {
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+    outline: none;
+}
+
+.writereview-review-form button {
+    background: #4361ee;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.writereview-review-form button:hover:not(:disabled) {
+    background: #3a0ca3;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 15px rgba(67, 97, 238, 0.3);
+}
+
+.writereview-review-form button:disabled {
+    background: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Alerts */
+.writereview-alert-message {
+    padding: 1rem;
+    border-radius: 12px;
+    margin: 1.5rem 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+.writereview-alert-success {
+    background-color: #edf7ed;
+    color: #4caf50;
+    border: 1px solid #c5e1c5;
+}
+
+.writereview-alert-error {
+    background-color: #fdecea;
+    color: #f44336;
+    border: 1px solid #f5c2c7;
+}
+
+/* User Reviews */
+.writereview-user-reviews {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.writereview-user-reviews h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #2b2d42;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.writereview-review-item {
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    background: #fafafa;
+    border-left: 4px solid #4361ee;
+    transition: transform 0.3s ease;
+}
+
+.writereview-review-item:hover {
+    transform: translateY(-3px);
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.writereview-review-item strong {
+    color: #4361ee;
+    font-weight: 600;
+}
+
+.writereview-review-item p {
+    margin: 1rem 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+.writereview-review-item small {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.writereview-review-item div {
+    margin: 0.5rem 0;
+}
+
+/* Delete Button */
+.writereview-delete-btn {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.writereview-delete-btn:hover {
+    background-color: #d32f2f;
+}
+
+/* Auth Prompt */
+.writereview-auth-prompt {
+    text-align: center;
+    max-width: 500px;
+    margin: 5rem auto;
+    padding: 3rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.writereview-auth-prompt h3 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #2b2d42;
+}
+
+.writereview-auth-prompt button {
+    background: #4361ee;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5rem;
+    width: 180px;
+}
+
+.writereview-auth-prompt button:hover {
+    background: #3a0ca3;
+    transform: translateY(-3px);
+    box-shadow: 0 7px 15px rgba(67, 97, 238, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+    .writereview-review-form,
+    .writereview-user-reviews {
+        padding: 1.5rem;
+    }
+
+    .writereview-hero-section {
+        padding: 1.5rem;
+    }
+
+    .writereview-hero-section h1 {
+        font-size: 2.2rem;
+    }
+
+    .writereview-review-form button {
+        max-width: 100%;
+    }
+}

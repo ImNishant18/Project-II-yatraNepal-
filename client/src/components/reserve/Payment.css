@@ -1,0 +1,125 @@
+.payment-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.payment-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.payment-methods {
+    margin: 1.5rem 0;
+}
+
+.payment-method {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+.payment-method:hover {
+    border-color: #007bff;
+}
+
+.payment-method input[type="radio"] {
+    margin-right: 1rem;
+}
+
+.payment-method label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.payment-logo {
+    width: 60px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 1rem;
+}
+
+.cash-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.payment-summary {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.payment-summary h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.payment-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.payment-cancel,
+.payment-proceed,
+.payment-confirm {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.payment-cancel {
+    background: #6c757d;
+    color: white;
+}
+
+.payment-cancel:hover:not(:disabled) {
+    background: #5a6268;
+}
+
+.payment-proceed,
+.payment-confirm {
+    background: #007bff;
+    color: white;
+}
+
+.payment-proceed:hover:not(:disabled),
+.payment-confirm:hover:not(:disabled) {
+    background: #0056b3;
+}
+
+.payment-proceed:disabled,
+.payment-confirm:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.payment-error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+    border: 1px solid #f5c6cb;
+}

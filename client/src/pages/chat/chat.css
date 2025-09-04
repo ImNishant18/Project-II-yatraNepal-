@@ -1,0 +1,33 @@
+.chat-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: "Inter", sans-serif;
+}
+
+.chat-header h2 {
+    font-size: 1.75rem;
+    color: #1f2937;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.under-development-box {
+    padding: 30px;
+    background-color: #f9fafb;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.under-development-title {
+    font-size: 1.5rem;
+    color: #1f2937;
+    margin-bottom: 12px;
+}
+
+.under-development-message {
+    font-size: 1rem;
+    color: #6b7280;
+    line-height: 1.6;
+}
